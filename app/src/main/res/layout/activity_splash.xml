@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bck"
+    tools:context="com.suncitytechnoe.suncitymartnew.activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/splash_white_shape"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:padding="40dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/companyname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".8"
+            android:background="@color/colorPrimary"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="SuncityMart"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Powered By Suncity Techno"
+        android:textColor="#fff"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

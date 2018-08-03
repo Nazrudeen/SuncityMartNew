@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menswear"
+            android:title="Men's Wear" />
+        <item
+            android:id="@+id/nav_womenswear"
+            android:title="Women's Wear" />
+        <item
+            android:id="@+id/nav_accesories"
+            android:title="Accesories" />
+        <item
+            android:id="@+id/nav_trackorder"
+            android:title="Track Order" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="Account Details" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_sign"
+            android:title="Sign Out" />
+    </group>
+
+</menu>
